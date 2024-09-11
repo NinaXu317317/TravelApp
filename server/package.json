@@ -1,0 +1,16 @@
+{
+    "name": "TravelApp",
+    "version": "1.0.0",
+    "description": "A travel application",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "build": "cd .. && cd client && npm install && npm run build"
+    },
+    "dependencies": {
+        "express": "^5.0.0"
+    },
+    "engines": {
+        "node": "nodejs.20x"
+    }
+}
